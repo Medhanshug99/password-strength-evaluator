@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="icon" type="image/png" href="logo.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.webp" alt="PassSecure Logo" class="logo">
+            <div>
+                <h1>Password Strength</h1>
+                <p>Check how secure your password is</p>
+            </div>
+        </div>
+
+        <div class="password-input-group">
+            <div class="input-wrapper">
+                <input type="password" id="passwordInput" placeholder="Enter your password..." autocomplete="off">
+                <button type="button" id="togglePassword" class="toggle-btn">👁️</button>
+            </div>
+        </div>
+
+        <div class="strength-meter">
+            <div class="meter">
+                <div class="progress" id="progressBar"></div>
+            </div>
+            <div class="strength-label" id="strengthLabel">Enter a password</div>
+        </div>
+
+        <div class="requirements" id="requirements">
+            <div class="requirement">
+                <span class="icon" id="lengthIcon">●</span>
+                <span class="text">At least 8 characters</span>
+            </div>
+            <div class="requirement">
+                <span class="icon" id="uppercaseIcon">●</span>
+                <span class="text">One uppercase letter</span>
+            </div>
+            <div class="requirement">
+                <span class="icon" id="lowercaseIcon">●</span>
+                <span class="text">One lowercase letter</span>
+            </div>
+            <div class="requirement">
+                <span class="icon" id="numberIcon">●</span>
+                <span class="text">One number</span>
+            </div>
+            <div class="requirement">
+                <span class="icon" id="specialIcon">●</span>
+                <span class="text">One special character</span>
+            </div>
+        </div>
+
+        <div class="feedback" id="feedback"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
