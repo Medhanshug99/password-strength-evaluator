@@ -3,7 +3,7 @@
 A modern, responsive password strength analyzer built with vanilla HTML, CSS & JavaScript. Real-time validation with beautiful glassmorphism UI.
 
 ## ✨ Live Preview
- 
+ https://password-strength-evaluator-7.vercel.app/
 
 ## ✨ Features
 
